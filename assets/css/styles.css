@@ -155,6 +155,44 @@ a {
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices <> */
-
+@media (width >= 540px) {
+	.header, 
+	.nav__menu {
+		width: 500px;
+		margin-inline: auto;
+	}
+}
 
 /* For large devices <> */
+@media (width >= 1150px) {
+	.header {
+		width: 800px;
+		padding: 1.625rem 1.5rem;
+		top: 2rem;
+	}
+
+	.nav__logo {
+		position: relative;
+		z-index: 10;
+	}
+
+	.nav__menu {
+		width: initial;
+		margin: 0;
+	}
+
+	.nav__toggle, 
+	.nav__close {
+		display: none;
+	}
+
+	.nav__list {
+		flex-direction: row;
+		align-items: center;
+		column-gap: 3rem;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+}
