@@ -105,7 +105,7 @@ a {
 @media (width <= 1150px) {
 	.nav__menu {
 		position: fixed;
-		top: 1rem;
+		top: -120%;
 		left: 1rem;
 		right: 1rem;
 		background-color: var(--black-color);
@@ -138,7 +138,7 @@ a {
 
 .nav__close {
 	position: absolute;
-	top: -120%;
+	top: 1rem;
 	right: 1rem;
 	font-size: 1.5rem;
 	color: var(--white-color);
@@ -148,10 +148,10 @@ a {
 	cursor: pointer;
 }
 
-
-
 /* Show-menu */
-
+.show-menu {
+	top: 1rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices <> */
