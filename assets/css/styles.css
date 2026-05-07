@@ -195,4 +195,19 @@ a {
 		right: 0;
 		bottom: 0;
 	}
+
+	/* Scroll Nav */
+	.scroll-nav {
+		width: 500px;
+	}
+
+	.scroll-nav .nav__link {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.scroll-nav .nav__button {
+		opacity: 1;
+		pointer-events: initial;
+	}
 }
